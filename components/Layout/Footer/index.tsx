@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Link } from '@components/Utils/Link'
+
 import { FiHeart } from 'react-icons/fi'
 import { CustomImage } from '@components/Utils/CustomImage'
 
@@ -7,6 +7,7 @@ import { CONFIG } from '@libs/config'
 import { PROJECTS } from '@libs/config/projects'
 import FooterForm from '@components/FooterForm'
 import { Facebook, Linkedin, Mail, Phone, Pin, Twitter } from 'lucide-react'
+import Link from 'next/link'
 
 export const Footer: FC = () => {
   return (
@@ -36,38 +37,38 @@ export const Footer: FC = () => {
       </div>
       <div className="container">
         <div className="d-flex justify-content-center flex-flow-wrap">
-          <a className="btn btn-2 m-2" href="tally-erp9-software-quotation.php">
+          <Link className="btn btn-2 m-2" href="/">
             {' '}
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">Quotations</span>
-          </a>
-          <a className="btn btn-2 m-2" href="Tally-Solutions-Unit.php">
+          </Link>
+          <Link className="btn btn-2 m-2" href="/contact">
             {' '}
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">More</span>
-          </a>
-          <a className="btn btn-2 m-2" href="buyoffline.php">
+          </Link>
+          <Link className="btn btn-2 m-2" href="/buyoffline">
             {' '}
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">Buy Offline</span>
-          </a>
+          </Link>
           <a
             className="btn btn-2 m-2"
-            href="assets/pdf/GLOWIPS-BROCHURE.pdf"
+            href="images/assets/GLOWIPS-BROCHURE.pdf"
             target="_blank"
           >
             {' '}
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">Brochure</span>
           </a>
-          <a
+          <Link
             className="btn btn-2 m-2"
-            href="Tally-Data-Migration-Solution-Delhi-India-International.php"
+            href="/services/support/datamigratioLink"
           >
             {' '}
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">Migrate</span>
-          </a>
+          </Link>
         </div>
       </div>
       <footer className="primary-footer dark-bg">
@@ -131,23 +132,19 @@ export const Footer: FC = () => {
                           <a href="index.php">Home</a>
                         </li>
                         <li>
-                          <a href="../about-tally-solution-unit.php">
-                            About Us
-                          </a>
+                          <Link href="/company/about">About Us</Link>
                         </li>
                         <li>
-                          <a href="../index.php">Site Map</a>
+                          <Link href="/">Site Map</Link>
                         </li>
                         <li>
-                          <a href="../Tally-Placements-Delhi-NCR.php">
-                            Placement
-                          </a>
+                          <Link href="/services/placement">Placement</Link>
                         </li>
                         <li>
-                          <a href="../about-tally-erp9-software.php">Product</a>
+                          <Link href="/products/erp9">Product</Link>
                         </li>
                         <li>
-                          <a href="../index.php">Disclaimer</a>
+                          <Link href="/">Disclaimer</Link>
                         </li>
                       </ul>
                     </div>
@@ -157,42 +154,42 @@ export const Footer: FC = () => {
                     <div className="footer-list">
                       <ul className="list-unstyled">
                         <li>
-                          <a href="../Tally-Vertical-Solutions-Authorized-Development-Unit.php">
+                          <Link href="/solutions/verticalsolutions">
                             {' '}
                             Vertical Solutions for Tally.ERP 9
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../Tally-Customization-Solutions-Delhi-NCR-India-International.php">
+                          <Link href="/solutions/cusomizationsol">
                             {' '}
                             Customization Solutions
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../Tally-Invoice-Customization-Solution-Delhi-India-International.php">
+                          <Link href="/solutions/invoicecust">
                             Tally Ready Invoice Customization
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../Tally-Addon-Modules-Delhi-NCR-India-International.php">
+                          <Link href="/solutions/addonmodules">
                             Tally add-on Modules
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../Tally-Integration-Services-Delhi-NCR-India-International.php">
+                          <Link href="/solutions/tallyintegration">
                             Tally Integration
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../Corporate-Management-Services-India-International.php">
+                          <Link href="/solutions/corpmanangement">
                             {' '}
                             Corporate Management
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../Custom-Built-Solutions-In-Tally-ERP9.php">
+                          <Link href="/solutions/custombuiltsolutions">
                             Custom Built Solution
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -200,25 +197,21 @@ export const Footer: FC = () => {
                     <div className="footer-list">
                       <ul className="list-unstyled">
                         <li>
-                          <a href="../team-tally-solution-glowips-authorized-unit.php">
-                            GLOWIPS Team
-                          </a>
+                          <Link href="/company/about">GLOWIPS Team</Link>
                         </li>
                         <li>
-                          <a href="../Authorized-tally-solution-unit-glowips-associates.php">
-                            Our Associates
-                          </a>
+                          <Link href="/company/associates">Our Associates</Link>
                         </li>
 
                         <li>
-                          <a href="../tallyerp-9-featured-projects.php">
+                          <Link href="/company/projects">
                             Featured Projects
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="../glowips-tallyerp-9-customers.php">
+                          <Link href="/company/clientage">
                             Our Esteemed Clientage
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -226,13 +219,15 @@ export const Footer: FC = () => {
                     <div className="footer-list">
                       <ul className="list-unstyled">
                         <li>
-                          <a href="../Download-Tally-Software-Free.php">
+                          <Link href="/download/tallydownloads">
                             Tally Downloads
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           onclick
-                          <a>Instant Support</a>
+                          <Link href="/download/instantsupport">
+                            Instant Support
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -261,105 +256,103 @@ export const Footer: FC = () => {
                 <div className="footer-list">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="../Authorized-tally-academy-delhi-ncr.php">
+                      <Link href="/services/training/academy">
                         Tally Academy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../tally-erp9-training-at-customer-site.php">
+                      <Link href="/services/training/site">
                         Tally Training at Site
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../tally-training-unit-authorized-tally-academy.php">
+                      <Link href="/services/training/academy">
                         Tally Training at Academy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Support-Unit-Delhi-Ncr-India-International.php">
-                        Priority Tally Support
-                      </a>
+                      <Link href="/contact">Priority Tally Support</Link>
                     </li>
                     <li>
-                      <a href="../Tally-Data-Recovery-Service-Delhi-India-International.php">
+                      <Link href="/services/support/datarecovery">
                         Tally Data Recovery
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Password-Recovery-Service-Delhi-India-International.php">
+                      <Link href="/services/support/passwordrecovery">
                         Tally Password Recovery
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Data-Migration-Solution-Delhi-India-International.php">
+                      <Link href="/services/support/datamigration">
                         Data Migration
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Implementation-Service-Delhi-India-International.php">
-                        Implementation Service
-                      </a>
+                      <Link href="/tallyinternational">
+                        International Services
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Incremental-tally-implementation-Delhi-NCR-India-International.php">
+                      <Link href="/services/implementation/incremental">
                         Incremental Implementation
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Target-Tally-Implementation-Delhi-NCR-India-International.php">
+                      <Link href="/services/implementation/target">
                         Target Implementation
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Customization-Solution-Delhi-India-International.php">
+                      <Link href="/images/assets/Our-Deluxe-ERP-Module.pdf">
                         Customization Service
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Invoice-Customization-Solution-Delhi-India-International.php">
+                      <Link href="/services/customization/invoice">
                         Invoice Customization
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="../assets/pdf/Our-Deluxe-ERP-Module.pdf"
+                      <Link
+                        href="/images/assets/Our-Deluxe-ERP-Module.pdf"
                         target="_blank"
                       >
                         Module Customization
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-ERP9-Customization-Solution-Delhi-India-International.php">
+                      <Link href="/services/customization/dedicated">
                         Dedicated Customization
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Corporate-Training-Unit-Delhi-NCR-India-International.php">
+                      <Link href="/services/corporatetraining">
                         Tally Corporate Training
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-AMC-Services-Delhi-NCR-India-International.php">
+                      <Link href="/services/supportcover">
                         Annual Support Cover
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Subscription-Renewal-Services-Delhi-NCR-India-International.php">
+                      <Link href="/services/netsubscription">
                         Tally .Net Subscription
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Synchronization-Solutions-Delhi-NCR-India-International.php">
+                      <Link href="/services/syncimplementaion">
                         Synchronization Implementation
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-ERP-Business-Advisory-Services.php">
+                      <Link href="/services/advisoryservices">
                         Business Advisory Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="../Tally-Placements-Delhi-NCR.php">Placement</a>
+                      <Link href="/services/placement">Placement</Link>
                     </li>
                   </ul>
                 </div>
@@ -396,7 +389,6 @@ export const Footer: FC = () => {
           </div>
         </div>
       </footer>
-    
     </>
   )
 }
