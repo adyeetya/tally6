@@ -1,7 +1,7 @@
-import { CustomImage } from "@components/Utils/CustomImage";
+import { CustomImage } from '@components/Utils/CustomImage'
 
-import { PROJECTS } from "@libs/config/projects";
-import { FC } from "react";
+import { PROJECTS } from '@libs/config/projects'
+import { FC } from 'react'
 
 export const Project: FC = () => {
   return (
@@ -36,7 +36,7 @@ export const Project: FC = () => {
                   </text>
                 </svg>
                 <img
-                  src="https://www.tallysolution.net/assets/images/roraring-arrow.png"
+                  src="/images/roraring-arrow.png"
                   alt=""
                   className="animation-arrow"
                 />
@@ -139,4 +139,4 @@ export const Project: FC = () => {
       </section>
     </>
   )
-};
+}

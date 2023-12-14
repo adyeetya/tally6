@@ -52,7 +52,7 @@ export const Footer: FC = () => {
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">Buy Offline</span>
           </Link>
-          <a
+          <Link
             className="btn btn-2 m-2"
             href="images/assets/GLOWIPS-BROCHURE.pdf"
             target="_blank"
@@ -60,7 +60,7 @@ export const Footer: FC = () => {
             {' '}
             <span className="btn-icon btn-arrow" />
             <span className="btn-text ps-5 pe-5">Brochure</span>
-          </a>
+          </Link>
           <Link
             className="btn btn-2 m-2"
             href="/services/support/datamigratioLink"
@@ -129,7 +129,7 @@ export const Footer: FC = () => {
                     <div className="footer-list">
                       <ul className="list-unstyled">
                         <li>
-                          <a href="index.php">Home</a>
+                          <Link href="index.php">Home</Link>
                         </li>
                         <li>
                           <Link href="/company/about">About Us</Link>

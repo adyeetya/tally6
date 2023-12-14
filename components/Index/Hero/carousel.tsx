@@ -1,49 +1,36 @@
 import Carousel from 'react-bootstrap/Carousel'
 import styles from './hero.module.css'
+import Link from 'next/link'
 function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-        <div
-          className={styles['container']}
-        
-        >
+        <div className={styles['container']}>
           <div className={styles['left-content']}>
-            <h1>Authorized ERP Solutions</h1>
+            <h1>Building ERPs Globally</h1>
             <div
-              className="animated3 mt-5"
-              style={{ display: 'flex', marginTop: '20px' }}
+              className="animated3 mt-5 "
+              style={{
+                display: 'flex',
+                marginTop: '20px',
+              }}
             >
-              <a
-                className="btn btn-2"
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
                 href="Custom-Built-Solutions-In-Tally-ERP9.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
-                <span className="btn-text my-auto">Learn More</span>
-              </a>
-              <a
-                className="btn btn-2 "
-                href="Contact-Authorized-Tally-Solution-Unit.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
+                <span className=" btn-text my-auto">Learn More</span>
+              </Link>
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
+                href="/contact"
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
                 <span className="btn-text ">Contact Us</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles['right-content']}>
@@ -68,46 +55,32 @@ function UncontrolledExample() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div
-          className={styles['container']}
-         
-        >
+        <div className={styles['container']}>
           <div className={styles['left-content']}>
-            <h1>Authorized ERP Solutions</h1>
+            <h1>Developing Business Technologies</h1>
             <div
-              className="animated3 mt-5"
-              style={{ display: 'flex', marginTop: '20px' }}
+              className="animated3 mt-5 "
+              style={{
+                display: 'flex',
+                marginTop: '20px',
+              }}
             >
-              <a
-                className="btn btn-2"
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
                 href="Custom-Built-Solutions-In-Tally-ERP9.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
-                <span className="btn-text my-auto">Learn More</span>
-              </a>
-              <a
-                className="btn btn-2 "
-                href="Contact-Authorized-Tally-Solution-Unit.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
+                <span className=" btn-text my-auto">Learn More</span>
+              </Link>
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
+                href="/contact"
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
                 <span className="btn-text ">Contact Us</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles['right-content']}>
@@ -132,46 +105,32 @@ function UncontrolledExample() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div
-          className={styles['container']}
-         
-        >
+        <div className={styles['container']}>
           <div className={styles['left-content']}>
-            <h1>Authorized ERP Solutions</h1>
+            <h1>Tally Implementation and Integration</h1>
             <div
-              className="animated3 mt-5"
-              style={{ display: 'flex', marginTop: '20px' }}
+              className="animated3 mt-5 "
+              style={{
+                display: 'flex',
+                marginTop: '20px',
+              }}
             >
-              <a
-                className="btn btn-2"
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
                 href="Custom-Built-Solutions-In-Tally-ERP9.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
-                <span className="btn-text my-auto">Learn More</span>
-              </a>
-              <a
-                className="btn btn-2 "
-                href="Contact-Authorized-Tally-Solution-Unit.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
+                <span className=" btn-text my-auto">Learn More</span>
+              </Link>
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
+                href="/contact"
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
                 <span className="btn-text ">Contact Us</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles['right-content']}>
@@ -196,46 +155,32 @@ function UncontrolledExample() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div
-          className={styles['container']}
-         
-        >
+        <div className={styles['container']}>
           <div className={styles['left-content']}>
             <h1>Authorized ERP Solutions</h1>
             <div
-              className="animated3 mt-5"
-              style={{ display: 'flex', marginTop: '20px' }}
+              className="animated3 mt-5 "
+              style={{
+                display: 'flex',
+                marginTop: '20px',
+              }}
             >
-              <a
-                className="btn btn-2"
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
                 href="Custom-Built-Solutions-In-Tally-ERP9.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
-                <span className="btn-text my-auto">Learn More</span>
-              </a>
-              <a
-                className="btn btn-2 "
-                href="Contact-Authorized-Tally-Solution-Unit.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
+                <span className=" btn-text my-auto">Learn More</span>
+              </Link>
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
+                href="/contact"
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
                 <span className="btn-text ">Contact Us</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles['right-content']}>
@@ -260,46 +205,32 @@ function UncontrolledExample() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div
-          className={styles['container']}
-        
-        >
+        <div className={styles['container']}>
           <div className={styles['left-content']}>
-            <h1>Authorized ERP Solutions</h1>
+            <h1>Tally ERP Customization </h1>
             <div
-              className="animated3 mt-5"
-              style={{ display: 'flex', marginTop: '20px' }}
+              className="animated3 mt-5 "
+              style={{
+                display: 'flex',
+                marginTop: '20px',
+              }}
             >
-              <a
-                className="btn btn-2"
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
                 href="Custom-Built-Solutions-In-Tally-ERP9.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
-                <span className="btn-text my-auto">Learn More</span>
-              </a>
-              <a
-                className="btn btn-2 "
-                href="Contact-Authorized-Tally-Solution-Unit.php"
-                style={{
-                  height: '80px',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  display: 'flex',
-                  width: '190px',
-                }}
+                <span className=" btn-text my-auto">Learn More</span>
+              </Link>
+              <Link
+                className={`btn btn-2 ${styles['buttons']}`}
+                href="/contact"
               >
                 {' '}
                 <span className="btn-icon btn-arrow" />
                 <span className="btn-text ">Contact Us</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className={styles['right-content']}>

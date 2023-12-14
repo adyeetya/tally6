@@ -4,6 +4,7 @@ import { Footer } from '@components/Layout/Footer'
 import Marquee from 'react-fast-marquee'
 import Accordian from '@components/Accordian'
 import FormComponent from '@components/FormComponent'
+import Link from 'next/link'
 const verticalsolutions = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const verticalsolutions = () => {
           <nav aria-label="breadcrumb" className="page-breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.php">Home</a>
+                <Link href="index.php">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Glow IPS Tally ERP.9 Rental
@@ -77,13 +78,13 @@ const verticalsolutions = () => {
                 <div id="accordion" className="accordion tabArea">
                   {/*<div class="card-header1">*/}
                   {/*  <h6 class="mb-0">*/}
-                  {/*    <a href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
+                  {/*    <Link href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
                   {/*  </h6>*/}
                   {/*</div>*/}
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Customization-Solution-Delhi-India-International.php"
+                        href="/services/customization/dedicated"
                         className="collapsed"
                       >
                         Customization Services
@@ -92,28 +93,28 @@ const verticalsolutions = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Corporate-Training-Unit-Delhi-NCR-India-International.php"
+                      <Link
+                        href="/services/training/site"
                         className="collapsed"
                       >
                         Tally Corporate Training
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Subscription-Renewal-Services-Delhi-NCR-India-International.php"
+                      <Link
+                        href="/services/netsubscription"
                         className="collapsed"
                       >
                         Tally.Net Services
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-ERP-Business-Advisory-Services.php"
+                        href="/services/advisoryservices"
                         className="collapsed"
                       >
                         Business Advisory Services
@@ -122,19 +123,16 @@ const verticalsolutions = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-AMC-Services-Delhi-NCR-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/services/supportcover" className="collapsed">
                         {' '}
                         Annual Support Cover
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Synchronization-Solutions-Delhi-NCR-India-International.php"
+                        href="/services/syncimplementaion"
                         className="collapsed"
                       >
                         {' '}
@@ -144,12 +142,12 @@ const verticalsolutions = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Support-Unit-Delhi-Ncr-India-International.php"
+                      <Link
+                        href="/download/instantsupport"
                         className="collapsed"
                       >
                         Priority Tally Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -159,15 +157,18 @@ const verticalsolutions = () => {
                 <div id="accordion" className="accordion tabArea">
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="Tally-Solutions-Unit.php" className="collapsed">
+                      <Link
+                        href="/solutions/addonmodules"
+                        className="collapsed"
+                      >
                         Tally Academy Solution
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Corporate-Management-Services-India-International.php"
+                        href="/solutions/corpmanangement"
                         className="collapsed"
                       >
                         Corporate Management
@@ -177,7 +178,7 @@ const verticalsolutions = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Vertical-Solutions-Authorized-Development-Unit.php"
+                        href="/solutions/verticalsolutions"
                         className="collapsed"
                       >
                         Vertical Solutions for Tally{' '}
@@ -187,7 +188,7 @@ const verticalsolutions = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Integration-Services-Delhi-NCR-India-International.php"
+                        href="/solutions/tallyintegration"
                         className="collapsed"
                       >
                         Tally Integration
@@ -196,19 +197,19 @@ const verticalsolutions = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="glowips-tallyerp-9-customers.php"
-                        className="collapsed"
-                      >
+                      <Link href="/company/clientage" className="collapsed">
                         Our Esteemed Clientage
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="instantsupport.php" className="collapsed">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
                         Instant Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -302,12 +303,7 @@ const verticalsolutions = () => {
                           >
                             <tbody>
                               <tr>
-                                <td
-                                  height={25}
-                                  align="left"
-                        
-                                  scope="row"
-                                >
+                                <td height={25} align="left" scope="row">
                                   Tally ERP - 9 Platinum Module
                                 </td>
                                 <td
@@ -334,7 +330,6 @@ const verticalsolutions = () => {
                                   width="83%"
                                   height={25}
                                   align="left"
-                           
                                   scope="row"
                                 >
                                   Jewellery Industry
@@ -361,12 +356,7 @@ const verticalsolutions = () => {
                                 </td>
                               </tr>
                               <tr>
-                                <td
-                                  height={25}
-                                  align="left"
-                      
-                                  scope="row"
-                                >
+                                <td height={25} align="left" scope="row">
                                   Manufacturing Industry
                                 </td>
                                 <td
@@ -389,12 +379,7 @@ const verticalsolutions = () => {
                                 </td>
                               </tr>
                               <tr>
-                                <td
-                                  height={25}
-                                  align="left"
-                         
-                                  scope="row"
-                                >
+                                <td height={25} align="left" scope="row">
                                   Electronic Showroom Management
                                 </td>
                                 <td
@@ -417,12 +402,7 @@ const verticalsolutions = () => {
                                 </td>
                               </tr>
                               <tr>
-                                <td
-                                  height={25}
-                                  align="left"
-                              
-                                  scope="row"
-                                >
+                                <td height={25} align="left" scope="row">
                                   Hotel &amp; Restaurant
                                 </td>
                                 <td

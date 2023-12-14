@@ -25,6 +25,9 @@ import {
 } from 'lucide-react'
 import NavComponent from './NavComponent'
 import ConditionNavbar from './conditionNavbar'
+import Logo from 'public/logoss-removebg-preview.png'
+
+import Image from 'next/image'
 
 
 export const Navbar: FC = () => {
@@ -83,25 +86,24 @@ export const Navbar: FC = () => {
   }
 
   return (
-    <header
-      id="site-header"
-      className=" p-4 fixed w-full top-0 custom-navbar"
-    >
+    <header id="site-header" className=" p-4 fixed w-full top-0 custom-navbar">
       <div className="header-top bg-yellow-600">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-2 justify-content-between">
-              <a
+              <Link
                 href="#"
                 className="navbar-brand logo d-block h-100 d-flex justify-content-center"
               >
-                <img
-                  style={{ height: 216, width: 216 }}
-                  src={'images/banner/logo.gif'}
+                <Image
+                  // style={{ height: 216, width: 216 }}
+                  width={216}
+                  height={216}
+                  src="/logoss-removebg-preview.png"
                   className={styles['navbar-logo']}
                   alt="Navbar Logo"
                 />
-              </a>
+              </Link>
             </div>
             <div className="col-md-10">
               <div className="row  mobo-menu-item">
@@ -123,13 +125,13 @@ export const Navbar: FC = () => {
                       <OwlCarousel />
                     </div>
                     <div className="col-md-4">
-                      <a href="/tallyinternational" target="_blank">
+                      <Link href="/tallyinternational" target="_blank">
                         <img
                           src="/images/banner/tallyinternational.png"
                           className="tally-international-shake d-none d-md-flex "
                           style={{ width: '10rem', marginLeft: '4rem' }}
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

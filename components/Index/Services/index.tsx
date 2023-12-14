@@ -1,47 +1,47 @@
-import { FC } from "react";
-import { FaLaptopCode, FaDiscord } from "react-icons/fa";
+import { FC } from 'react'
+import { FaLaptopCode, FaDiscord } from 'react-icons/fa'
 import {
   SiAdobeaftereffects,
   SiAdobeillustrator,
   SiAdobephotoshop,
-} from "react-icons/si";
-import { AiOutlineGlobal } from "react-icons/ai";
-import Marquee from "react-fast-marquee";
-import { Link } from "@components/Utils/Link";
+} from 'react-icons/si'
+import { AiOutlineGlobal } from 'react-icons/ai'
+import Marquee from 'react-fast-marquee'
+import { Link } from '@components/Utils/Link'
 
 export const Services: FC = () => {
   const Service = [
     {
-      name: "Web Tabanlı Sistemler",
-      text: "İstediğiniz bir websitesini tasarlar ve kodlarız ayrıca web tabanlı oyunlar, uygulamalar ve programlar kodlamaktayız.",
+      name: 'Web Tabanlı Sistemler',
+      text: 'İstediğiniz bir websitesini tasarlar ve kodlarız ayrıca web tabanlı oyunlar, uygulamalar ve programlar kodlamaktayız.',
       icon: AiOutlineGlobal,
     },
     {
-      name: "Gömülü Sistemler",
-      text: "Platformu fark etmeksizin her türlü masaüstü ve mobil uygulama geliştirmekteyiz.",
+      name: 'Gömülü Sistemler',
+      text: 'Platformu fark etmeksizin her türlü masaüstü ve mobil uygulama geliştirmekteyiz.',
       icon: FaLaptopCode,
     },
     {
-      name: "Discord Uygulamaları",
-      text: "Discord için uygulama ve botlar geliştirmekteyiz.",
+      name: 'Discord Uygulamaları',
+      text: 'Discord için uygulama ve botlar geliştirmekteyiz.',
       icon: FaDiscord,
     },
     {
-      name: "Photoshop Hizmeti",
-      text: "İstediğiniz fotoğrafları veya tasarımları istediğiniz şekillerde düzenleyebiliriz.",
+      name: 'Photoshop Hizmeti',
+      text: 'İstediğiniz fotoğrafları veya tasarımları istediğiniz şekillerde düzenleyebiliriz.',
       icon: SiAdobephotoshop,
     },
     {
-      name: "Tasarım Hizmeti",
-      text: "İstediğiniz bir logoyu, banneri, veya herhangi bir tasarımı sizin için tasarlayabiliriz.",
+      name: 'Tasarım Hizmeti',
+      text: 'İstediğiniz bir logoyu, banneri, veya herhangi bir tasarımı sizin için tasarlayabiliriz.',
       icon: SiAdobeillustrator,
     },
     {
-      name: "After Effects Hizmeti",
-      text: "İstediğiniz bir gifi tasarlayabiliriz veya istediğiniz bir videoya efekt eklemesi ve düzenlemesi yapabiliriz.",
+      name: 'After Effects Hizmeti',
+      text: 'İstediğiniz bir gifi tasarlayabiliriz veya istediğiniz bir videoya efekt eklemesi ve düzenlemesi yapabiliriz.',
       icon: SiAdobeaftereffects,
     },
-  ];
+  ]
 
   return (
     <div className="page-content">
@@ -147,7 +147,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/1.png"
+                  src="/images/1.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -187,7 +187,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/2.png"
+                  src="/images/2.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -227,7 +227,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/3.png"
+                  src="/images/3.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -267,7 +267,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/4.png"
+                  src="/images/4.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -307,7 +307,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/5.png"
+                  src="/images/5.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -347,7 +347,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/6.png"
+                  src="/images/6.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -387,7 +387,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/7.png"
+                  src="/images/7.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -427,7 +427,7 @@ export const Services: FC = () => {
                   </h5>
                 </div>
                 <img
-                  src="https://www.tallysolution.net/assets/images/8.png"
+                  src="/images/8.png"
                   alt="Tally Customization in Delhi India"
                 />
               </div>
@@ -437,4 +437,4 @@ export const Services: FC = () => {
       </section>
     </div>
   )
-};
+}

@@ -4,6 +4,7 @@ import { Footer } from '@components/Layout/Footer'
 import Marquee from 'react-fast-marquee'
 import Accordian from '@components/Accordian'
 import FormComponent from '@components/FormComponent'
+import Link from 'next/link'
 const managementconsultancy = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const managementconsultancy = () => {
           <nav aria-label="breadcrumb" className="page-breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.php">Home</a>
+                <Link href="index.php">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Glow IPS Tally ERP.9 Rental
@@ -78,13 +79,13 @@ const managementconsultancy = () => {
                 <div id="accordion" className="accordion tabArea">
                   {/*<div class="card-header1">*/}
                   {/*  <h6 class="mb-0">*/}
-                  {/*    <a href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
+                  {/*    <Link href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
                   {/*  </h6>*/}
                   {/*</div>*/}
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Customization-Solution-Delhi-India-International.php"
+                        href="/services/customization/dedicated"
                         className="collapsed"
                       >
                         Customization Services
@@ -93,28 +94,28 @@ const managementconsultancy = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Corporate-Training-Unit-Delhi-NCR-India-International.php"
+                      <Link
+                        href="/services/training/site"
                         className="collapsed"
                       >
                         Tally Corporate Training
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Subscription-Renewal-Services-Delhi-NCR-India-International.php"
+                      <Link
+                        href="/services/netsubscription"
                         className="collapsed"
                       >
                         Tally.Net Services
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-ERP-Business-Advisory-Services.php"
+                        href="/services/advisoryservices"
                         className="collapsed"
                       >
                         Business Advisory Services
@@ -123,19 +124,16 @@ const managementconsultancy = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-AMC-Services-Delhi-NCR-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/services/supportcover" className="collapsed">
                         {' '}
                         Annual Support Cover
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Synchronization-Solutions-Delhi-NCR-India-International.php"
+                        href="/services/syncimplementaion"
                         className="collapsed"
                       >
                         {' '}
@@ -145,12 +143,12 @@ const managementconsultancy = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Support-Unit-Delhi-Ncr-India-International.php"
+                      <Link
+                        href="/download/instantsupport"
                         className="collapsed"
                       >
                         Priority Tally Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -160,15 +158,18 @@ const managementconsultancy = () => {
                 <div id="accordion" className="accordion tabArea">
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="Tally-Solutions-Unit.php" className="collapsed">
+                      <Link
+                        href="/solutions/addonmodules"
+                        className="collapsed"
+                      >
                         Tally Academy Solution
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Corporate-Management-Services-India-International.php"
+                        href="/solutions/corpmanangement"
                         className="collapsed"
                       >
                         Corporate Management
@@ -178,7 +179,7 @@ const managementconsultancy = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Vertical-Solutions-Authorized-Development-Unit.php"
+                        href="/solutions/verticalsolutions"
                         className="collapsed"
                       >
                         Vertical Solutions for Tally{' '}
@@ -188,7 +189,7 @@ const managementconsultancy = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Integration-Services-Delhi-NCR-India-International.php"
+                        href="/solutions/tallyintegration"
                         className="collapsed"
                       >
                         Tally Integration
@@ -197,19 +198,19 @@ const managementconsultancy = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="glowips-tallyerp-9-customers.php"
-                        className="collapsed"
-                      >
+                      <Link href="/company/clientage" className="collapsed">
                         Our Esteemed Clientage
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="instantsupport.php" className="collapsed">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
                         Instant Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -287,7 +288,7 @@ const managementconsultancy = () => {
                               >
                                 Corporate Management{' '}
                               </td>
-                              {/*<td width="17%" height="25" align="left" valign="middle" class="white"><a href="assets/pdf/corporate_management_glowips-delhiNCR.php">Read More</a></td>*/}
+                              {/*<td width="17%" height="25" align="left" valign="middle" class="white"><Link href="assets/pdf/corporate_management_glowips-delhiNCR.php">Read More</a></td>*/}
                             </tr>
                             <tr>
                               <td
@@ -298,7 +299,7 @@ const managementconsultancy = () => {
                               >
                                 Management Consultancy Services
                               </td>
-                              {/*<td height="25" align="left" valign="middle" class="white"><a href="assets/pdf/management_consultancy_services_glowips-delhi.php">Read More</a></td>*/}
+                              {/*<td height="25" align="left" valign="middle" class="white"><Link href="assets/pdf/management_consultancy_services_glowips-delhi.php">Read More</a></td>*/}
                             </tr>
                             <tr>
                               <td
@@ -310,7 +311,7 @@ const managementconsultancy = () => {
                                 {' '}
                                 Business Development
                               </td>
-                              {/*<td height="25" align="left" valign="middle" class="white"><a href="assets/pdf/business_development_glowips-delhi.php">Read More</a></td>*/}
+                              {/*<td height="25" align="left" valign="middle" class="white"><Link href="assets/pdf/business_development_glowips-delhi.php">Read More</a></td>*/}
                             </tr>
                             <tr>
                               <td
@@ -321,7 +322,7 @@ const managementconsultancy = () => {
                               >
                                 Our Franchise Services
                               </td>
-                              {/*<td height="25" align="left" valign="middle" class="white"><a href="assets/pdf/franchise_services_glowips_delhi.php">Read More</a></td>*/}
+                              {/*<td height="25" align="left" valign="middle" class="white"><Link href="assets/pdf/franchise_services_glowips_delhi.php">Read More</a></td>*/}
                             </tr>
                             <tr>
                               <td
@@ -333,7 +334,7 @@ const managementconsultancy = () => {
                                 {' '}
                                 ERP for Corporate&apos;s and Industries{' '}
                               </td>
-                              {/*<td height="25" align="left" valign="middle" class="white"><a href="assets/pdf/ERP_for_Corporates_and_Industries_glowips_delhi.php">Read More</a></td>*/}
+                              {/*<td height="25" align="left" valign="middle" class="white"><Link href="assets/pdf/ERP_for_Corporates_and_Industries_glowips_delhi.php">Read More</a></td>*/}
                             </tr>
                           </tbody>
                         </table>

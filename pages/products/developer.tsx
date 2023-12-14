@@ -1,11 +1,10 @@
 import React from 'react'
-import { Navbar } from '@components/Layout/Navbar';
-import { Footer } from '@components/Layout/Footer';
+import { Navbar } from '@components/Layout/Navbar'
+import { Footer } from '@components/Layout/Footer'
 
-import Marquee from "react-fast-marquee";
-import Accordian from '@components/Accordian';
-import FormComponent from '@components/FormComponent';
-
+import Marquee from 'react-fast-marquee'
+import Accordian from '@components/Accordian'
+import FormComponent from '@components/FormComponent'
 
 const developer = () => {
   return (
@@ -13,10 +12,9 @@ const developer = () => {
       <Navbar />
       <section
         className="page-title parallaxie"
-        data-bg-img="https://www.tallysolution.net/assets/images/08.jpg"
+        data-bg-img="/images/08.jpg"
         style={{
-          backgroundImage:
-            'url("https://www.tallysolution.net/assets/images/08.jpg")',
+          backgroundImage: 'url("/images/08.jpg")',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed',

@@ -1,9 +1,9 @@
-
 import React from 'react'
-import { Navbar } from '@components/Layout/Navbar';
-import { Footer } from '@components/Layout/Footer';
-import Accordian from '@components/Accordian';
-import FormComponent from '@components/FormComponent';
+import { Navbar } from '@components/Layout/Navbar'
+import { Footer } from '@components/Layout/Footer'
+import Accordian from '@components/Accordian'
+import FormComponent from '@components/FormComponent'
+import Link from 'next/link'
 
 const datamigration = () => {
   return (
@@ -11,10 +11,9 @@ const datamigration = () => {
       <Navbar />
       <section
         className="page-title parallaxie"
-        data-bg-img="https://www.tallysolution.net/assets/images/08.jpg"
+        data-bg-img="/images/08.jpg"
         style={{
-          backgroundImage:
-            'url("https://www.tallysolution.net/assets/images/08.jpg")',
+          backgroundImage: 'url("/images/08.jpg")',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundAttachment: 'fixed',
@@ -28,7 +27,7 @@ const datamigration = () => {
               <nav aria-label="breadcrumb" className="page-breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <a href="index.php">Home</a>
+                    <Link href="index.php">Home</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     GlowIPS Service Authorized Tally Partners -Delhi
@@ -64,13 +63,13 @@ const datamigration = () => {
                 <div id="accordion" className="accordion tabArea">
                   {/*<div class="card-header1">*/}
                   {/*  <h6 class="mb-0">*/}
-                  {/*    <a href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
+                  {/*    <Link href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
                   {/*  </h6>*/}
                   {/*</div>*/}
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Customization-Solution-Delhi-India-International.php"
+                        href="/services/customization/dedicated"
                         className="collapsed"
                       >
                         Customization Services
@@ -79,28 +78,22 @@ const datamigration = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Corporate-Training-Unit-Delhi-NCR-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/services/training/site" className="collapsed">
                         Tally Corporate Training
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Subscription-Renewal-Services-Delhi-NCR-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/services/netsubscription" className="collapsed">
                         Tally.Net Services
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-ERP-Business-Advisory-Services.php"
+                        href="/services/advisoryservices"
                         className="collapsed"
                       >
                         Business Advisory Services
@@ -109,19 +102,16 @@ const datamigration = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-AMC-Services-Delhi-NCR-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/services/supportcover" className="collapsed">
                         {' '}
                         Annual Support Cover
-                      </a>
+                     </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Synchronization-Solutions-Delhi-NCR-India-International.php"
+                        href="/services/syncimplementaion"
                         className="collapsed"
                       >
                         {' '}
@@ -131,12 +121,9 @@ const datamigration = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Support-Unit-Delhi-Ncr-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/download/instantsupport" className="collapsed">
                         Priority Tally Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -146,15 +133,15 @@ const datamigration = () => {
                 <div id="accordion" className="accordion tabArea">
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="Tally-Solutions-Unit.php" className="collapsed">
+                      <Link href="/solutions/addonmodules" className="collapsed">
                         Tally Academy Solution
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Corporate-Management-Services-India-International.php"
+                        href="/solutions/corpmanangement"
                         className="collapsed"
                       >
                         Corporate Management
@@ -164,7 +151,7 @@ const datamigration = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Vertical-Solutions-Authorized-Development-Unit.php"
+                        href="/solutions/verticalsolutions"
                         className="collapsed"
                       >
                         Vertical Solutions for Tally{' '}
@@ -174,7 +161,7 @@ const datamigration = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Integration-Services-Delhi-NCR-India-International.php"
+                        href="/solutions/tallyintegration"
                         className="collapsed"
                       >
                         Tally Integration
@@ -183,19 +170,16 @@ const datamigration = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="glowips-tallyerp-9-customers.php"
-                        className="collapsed"
-                      >
+                      <Link href="/company/clientage" className="collapsed">
                         Our Esteemed Clientage
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="instantsupport.php" className="collapsed">
+                      <Link href="/download/instantsupport" className="collapsed">
                         Instant Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>

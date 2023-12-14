@@ -4,6 +4,7 @@ import { Footer } from '@components/Layout/Footer'
 import Marquee from 'react-fast-marquee'
 import Accordian from '@components/Accordian'
 import FormComponent from '@components/FormComponent'
+import Link from 'next/link'
 const invoicecust = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const invoicecust = () => {
           <nav aria-label="breadcrumb" className="page-breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.php">Home</a>
+                <Link href="index.php">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Glow IPS Tally ERP.9 Rental
@@ -77,13 +78,13 @@ const invoicecust = () => {
                 <div id="accordion" className="accordion tabArea">
                   {/*<div class="card-header1">*/}
                   {/*  <h6 class="mb-0">*/}
-                  {/*    <a href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
+                  {/*    <Link href="tally-erp9-software-quotation.php" class="collapsed">Our Quotation</a>*/}
                   {/*  </h6>*/}
                   {/*</div>*/}
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Customization-Solution-Delhi-India-International.php"
+                        href="/services/customization/dedicated"
                         className="collapsed"
                       >
                         Customization Services
@@ -92,28 +93,28 @@ const invoicecust = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Corporate-Training-Unit-Delhi-NCR-India-International.php"
+                      <Link
+                        href="/services/training/site"
                         className="collapsed"
                       >
                         Tally Corporate Training
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Subscription-Renewal-Services-Delhi-NCR-India-International.php"
+                      <Link
+                        href="/services/netsubscription"
                         className="collapsed"
                       >
                         Tally.Net Services
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-ERP-Business-Advisory-Services.php"
+                        href="/services/advisoryservices"
                         className="collapsed"
                       >
                         Business Advisory Services
@@ -122,19 +123,16 @@ const invoicecust = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-AMC-Services-Delhi-NCR-India-International.php"
-                        className="collapsed"
-                      >
+                      <Link href="/services/supportcover" className="collapsed">
                         {' '}
                         Annual Support Cover
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Synchronization-Solutions-Delhi-NCR-India-International.php"
+                        href="/services/syncimplementaion"
                         className="collapsed"
                       >
                         {' '}
@@ -144,12 +142,12 @@ const invoicecust = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="Tally-Support-Unit-Delhi-Ncr-India-International.php"
+                      <Link
+                        href="/download/instantsupport"
                         className="collapsed"
                       >
                         Priority Tally Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -159,15 +157,18 @@ const invoicecust = () => {
                 <div id="accordion" className="accordion tabArea">
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="Tally-Solutions-Unit.php" className="collapsed">
+                      <Link
+                        href="/solutions/addonmodules"
+                        className="collapsed"
+                      >
                         Tally Academy Solution
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Corporate-Management-Services-India-International.php"
+                        href="/solutions/corpmanangement"
                         className="collapsed"
                       >
                         Corporate Management
@@ -177,7 +178,7 @@ const invoicecust = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Vertical-Solutions-Authorized-Development-Unit.php"
+                        href="/solutions/verticalsolutions"
                         className="collapsed"
                       >
                         Vertical Solutions for Tally{' '}
@@ -187,7 +188,7 @@ const invoicecust = () => {
                   <div className="card-header1">
                     <h6 className="mb-0">
                       <a
-                        href="Tally-Integration-Services-Delhi-NCR-India-International.php"
+                        href="/solutions/tallyintegration"
                         className="collapsed"
                       >
                         Tally Integration
@@ -196,19 +197,19 @@ const invoicecust = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a
-                        href="glowips-tallyerp-9-customers.php"
-                        className="collapsed"
-                      >
+                      <Link href="/company/clientage" className="collapsed">
                         Our Esteemed Clientage
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <a href="instantsupport.php" className="collapsed">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
                         Instant Support
-                      </a>
+                      </Link>
                     </h6>
                   </div>
                 </div>
@@ -268,33 +269,33 @@ const invoicecust = () => {
                               <tr>
                                 <td className="p-2">Preprinted Invoices </td>
                                 <td className="p-2">
-                                  <a href="preprinted_Invoices_Glowips_delhi.php">
+                                  <Link href="preprinted_Invoices_Glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Service Invoice </td>
                                 <td className="p-2">
-                                  <a href="service_Invoice_glowips_delhi.php">
+                                  <Link href="service_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Manufacturing Invoice </td>
                                 <td className="p-2">
-                                  <a href="service_Invoice_glowips_delhi.php">
+                                  <Link href="service_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Trading Invoice </td>
                                 <td className="p-2">
-                                  <a href="trading_Invoice_glowips_delhi.php">
+                                  <Link href="trading_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
@@ -302,41 +303,41 @@ const invoicecust = () => {
                                   Clearing and Forwarding Invoice{' '}
                                 </td>
                                 <td className="p-2">
-                                  <a href="cf_Invoice_glowips_delhi.php">
+                                  <Link href="cf_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Auto Parts Invoice </td>
                                 <td className="p-2">
-                                  <a href="Autoparts_Invoice_glowips_delhi.php">
+                                  <Link href="Autoparts_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Garment Invoice </td>
                                 <td className="p-2">
-                                  <a href="garment_Invoice_glowips_delhi.php">
+                                  <Link href="garment_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Simple Invoice </td>
                                 <td className="p-2">
-                                  <a href="simple_Invoice_glowips_delhi.php">
+                                  <Link href="simple_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                               <tr>
                                 <td className="p-2">Miscellaneous Invoices</td>
                                 <td className="p-2">
-                                  <a href="MISC_Invoice_glowips_delhi.php">
+                                  <Link href="MISC_Invoice_glowips_delhi.php">
                                     Read More
-                                  </a>
+                                  </Link>
                                 </td>
                               </tr>
                             </tbody>
