@@ -45,11 +45,7 @@ export const Contact: FC = () => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
-                  <img
-                    src="/images/icons/public-service.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/public-service.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <a href="Tally-Implementation-Service-Delhi-India-International.php">
@@ -61,11 +57,7 @@ export const Contact: FC = () => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
-                  <img
-                    src="/images/icons/technical-support.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/technical-support.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <a href="Tally-Implementation-Service-Delhi-India-International.php">
@@ -77,7 +69,7 @@ export const Contact: FC = () => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
-                  <img src="/images/icons/customer.png" alt="" width="50%" />
+                  <img src="/images/customer.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <a href="Tally-Implementation-Service-Delhi-India-International.php">
@@ -89,11 +81,7 @@ export const Contact: FC = () => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
-                  <img
-                    src="/images/icons/tech-support.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/tech-support.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <a href="Tally-Implementation-Service-Delhi-India-International.php">
@@ -106,7 +94,7 @@ export const Contact: FC = () => {
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
                   <img
-                    src="/images/icons/business-and-finance.png"
+                    src="/images/business-and-finance.png"
                     alt=""
                     width="50%"
                   />
@@ -122,7 +110,7 @@ export const Contact: FC = () => {
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
                   <img
-                    src="/images/icons/financial-advisor.png"
+                    src="/images/images/financial-advisor.png"
                     alt=""
                     width="50%"
                   />
@@ -137,11 +125,7 @@ export const Contact: FC = () => {
             <div className="col-lg-3 col-md-6 col-6">
               <div className="featured-item product-item-2">
                 <div className="featured-icon">
-                  <img
-                    src="/images/icons/customer-service.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/customer-service.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <a href="Tally-Implementation-Service-Delhi-India-International.php">

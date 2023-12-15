@@ -125,13 +125,13 @@ export const Navbar: FC = () => {
                       <OwlCarousel />
                     </div>
                     <div className="col-md-4">
-                      <Link href="/tallyinternational" target="_blank">
+                      <a href="/tallyinternational" target="_blank">
                         <img
                           src="/images/banner/tallyinternational.png"
                           className="tally-international-shake d-none d-md-flex "
                           style={{ width: '10rem', marginLeft: '4rem' }}
                         />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>

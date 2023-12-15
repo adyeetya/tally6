@@ -39,7 +39,7 @@ const postsalessupport = () => {
           <nav aria-label="breadcrumb" className="page-breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <Link href="index.php">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Glow IPS Tally ERP.9 Rental
@@ -96,14 +96,20 @@ const postsalessupport = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link href="/services/training/site" className="collapsed">
+                      <Link
+                        href="/services/training/site"
+                        className="collapsed"
+                      >
                         Tally Corporate Training
                       </Link>
                     </h6>
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link href="/services/netsubscription" className="collapsed">
+                      <Link
+                        href="/services/netsubscription"
+                        className="collapsed"
+                      >
                         Tally.Net Services
                       </Link>
                     </h6>
@@ -139,7 +145,10 @@ const postsalessupport = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link href="/download/instantsupport" className="collapsed">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
                         Priority Tally Support
                       </Link>
                     </h6>
@@ -151,7 +160,10 @@ const postsalessupport = () => {
                 <div id="accordion" className="accordion tabArea">
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link href="/solutions/addonmodules" className="collapsed">
+                      <Link
+                        href="/solutions/addonmodules"
+                        className="collapsed"
+                      >
                         Tally Academy Solution
                       </Link>
                     </h6>
@@ -195,7 +207,10 @@ const postsalessupport = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link href="/download/instantsupport" className="collapsed">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
                         Instant Support
                       </Link>
                     </h6>

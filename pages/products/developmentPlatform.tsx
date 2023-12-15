@@ -30,7 +30,7 @@ const developmentPlatform = () => {
               <nav aria-label="breadcrumb" className="page-breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link href="index.php">Home</Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     About Tally Erp9 Softwarex
@@ -89,107 +89,124 @@ const developmentPlatform = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link href="/services/training/site" className="collapsed">
-                      Tally Corporate Training
-                    </Link>
-                  </h6>
+                      <Link
+                        href="/services/training/site"
+                        className="collapsed"
+                      >
+                        Tally Corporate Training
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/services/netsubscription"
+                        className="collapsed"
+                      >
+                        Tally.Net Services
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/services/advisoryservices"
+                        className="collapsed"
+                      >
+                        Business Advisory Services
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link href="/services/supportcover" className="collapsed">
+                        {' '}
+                        Annual Support Cover
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/services/syncimplementaion"
+                        className="collapsed"
+                      >
+                        {' '}
+                        Data Synchronization
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
+                        Priority Tally Support
+                      </Link>
+                    </h6>
+                  </div>
                 </div>
-                <div className="card-header1">
-                  <h6 className="mb-0">
-                    <Link href="/services/netsubscription" className="collapsed">
-                    Tally.Net Services
-                  </Link>
-                </h6>
               </div>
-              <div className="card-header1">
-                <h6 className="mb-0">
-                  <Link
-                    href="/services/advisoryservices"
-                    className="collapsed"
-                  >
-                    Business Advisory Services
-                  </Link>
-                </h6>
-              </div>
-              <div className="card-header1">
-                <h6 className="mb-0">
-                  <Link href="/services/supportcover" className="collapsed">
-                  {' '}
-                  Annual Support Cover
-               </Link>
-              </h6>
-            </div>
-            <div className="card-header1">
-              <h6 className="mb-0">
-                <Link
-                  href="/services/syncimplementaion"
-                  className="collapsed"
-                >
-                  {' '}
-                  Data Synchronization
-                </Link>
-              </h6>
-            </div>
-            <div className="card-header1">
-              <h6 className="mb-0">
-                <Link href="/download/instantsupport" className="collapsed">
-                Priority Tally Support
-              </Link>
-            </h6>
-          </div>
-        </div>
-      </div><div className="tab-head">
-        <h4 className="service-head mb-0">Useful Links</h4>
-        <div id="accordion" className="accordion tabArea">
-          <div className="card-header1">
-            <h6 className="mb-0">
-              <Link href="/solutions/addonmodules" className="collapsed">
-              Tally Academy Solution
-            </Link>
-          </h6>
-        </div>
-        <div className="card-header1">
-          <h6 className="mb-0">
-            <Link
-              href="/solutions/corpmanangement"
-              className="collapsed"
-            >
-              Corporate Management
-            </Link>
-          </h6>
-        </div>
-        <div className="card-header1">
-          <h6 className="mb-0">
-            <Link
-              href="/solutions/verticalsolutions"
-              className="collapsed"
-            >
-              Vertical Solutions for Tally{' '}
-            </Link>
-          </h6>
-        </div>
-        <div className="card-header1">
-          <h6 className="mb-0">
-            <Link
-              href="/solutions/tallyintegration"
-              className="collapsed"
-            >
-              Tally Integration
-            </Link>
-          </h6>
-        </div>
-        <div className="card-header1">
-          <h6 className="mb-0">
-            <Link href="/company/clientage" className="collapsed">
-            Our Esteemed Clientage
-          </Link>
-        </h6>
-      </div><div className="card-header1">
-        <h6 className="mb-0">
-          <Link href="/download/instantsupport" className="collapsed">
-          Instant Support
-        </Link>
-      </h6>
+              <div className="tab-head">
+                <h4 className="service-head mb-0">Useful Links</h4>
+                <div id="accordion" className="accordion tabArea">
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/solutions/addonmodules"
+                        className="collapsed"
+                      >
+                        Tally Academy Solution
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/solutions/corpmanangement"
+                        className="collapsed"
+                      >
+                        Corporate Management
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/solutions/verticalsolutions"
+                        className="collapsed"
+                      >
+                        Vertical Solutions for Tally{' '}
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/solutions/tallyintegration"
+                        className="collapsed"
+                      >
+                        Tally Integration
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link href="/company/clientage" className="collapsed">
+                        Our Esteemed Clientage
+                      </Link>
+                    </h6>
+                  </div>
+                  <div className="card-header1">
+                    <h6 className="mb-0">
+                      <Link
+                        href="/download/instantsupport"
+                        className="collapsed"
+                      >
+                        Instant Support
+                      </Link>
+                    </h6>
                   </div>
                 </div>
               </div>

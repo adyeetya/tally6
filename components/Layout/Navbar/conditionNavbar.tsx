@@ -1,6 +1,6 @@
 import React, { FormEvent, useEffect, useState } from 'react'
 import NavComponent from './NavComponent'
-import { Pin, ShoppingCart } from 'lucide-react'
+import { Pin, ShoppingCart, User } from 'lucide-react'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 import FormComponent from '@components/FormComponent'
@@ -35,8 +35,18 @@ const RapidResponseCenter = () => {
   }
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      {/* <Button variant="primary" onClick={handleShow}>
         Rapid Support Center
+      </Button> */}
+      <Button
+        variant="primary"
+        onClick={handleShow}
+        style={{ marginTop: '5px', marginBottom:'5px'}}
+      >
+        <a className="btn me-1 me-sm-3" style={{ color: 'white' }}>
+          <User />
+          <span style={{ marginLeft: '10px' }}>Rapid Support Center</span>
+        </a>
       </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -889,7 +899,10 @@ const ConditionNavbar = () => {
               </div>
               <div>
                 <RapidResponseCenter />
-                <Button variant="primary" style={{ marginTop: '10px' }}>
+                <Button
+                  variant="primary"
+                  style={{ marginTop: '5px', marginBottom: '5px' }}
+                >
                   <Link
                     className="btn me-1 me-sm-3"
                     href="/buyoffline"

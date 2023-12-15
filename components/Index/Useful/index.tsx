@@ -235,11 +235,7 @@ export const Useful: FC = () => {
               <div className="featured-item style-3 product-item">
                 <div className="featured-icon">
                   {' '}
-                  <img
-                    src="/images/icons/cooperation1.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/cooperation1.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <Link href="Tally-Franchise-Services-Delhi-NCR-India-International.php">
@@ -252,7 +248,7 @@ export const Useful: FC = () => {
               <div className="featured-item style-3 product-item">
                 <div className="featured-icon">
                   {' '}
-                  <img src="/images/icons/strategy.png" alt="" width="50%" />
+                  <img src="/images/strategy.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <Link href="tallyerp-9-featured-projects.php">
@@ -282,7 +278,7 @@ export const Useful: FC = () => {
               <div className="featured-item style-3 product-item">
                 <div className="featured-icon">
                   {' '}
-                  <img src="/images/icons/about.png" alt="" width="50%" />
+                  <img src="/images/about.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <Link href="/solutions/verticalsolutions">
@@ -390,7 +386,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://tallysolution.net/assets/images/logos/PCI.jpeg"
+                    src="/images/logos/PCI.jpeg"
                     height={100}
                     width={250}
                     alt=""

@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, FormEvent, useState } from 'react'
 
 import { FiHeart } from 'react-icons/fi'
 import { CustomImage } from '@components/Utils/CustomImage'
@@ -8,6 +8,41 @@ import { PROJECTS } from '@libs/config/projects'
 import FooterForm from '@components/FooterForm'
 import { Facebook, Linkedin, Mail, Phone, Pin, Twitter } from 'lucide-react'
 import Link from 'next/link'
+import Button from 'react-bootstrap/Button'
+import Modal from 'react-bootstrap/Modal'
+import FormComponent from '@components/FormComponent'
+
+const FillForm = () => {
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
+  return (
+    <>
+      <Button onClick={handleShow}>
+        <a>
+          <img
+            src="/images/fillForm.png"
+            className="footer-fillForm"
+            style={{ filter: 'invert(0)' }}
+          />
+        </a>
+      </Button>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title style={{ color: 'blue', fontWeight: 'bold' }}>
+            Ask For A Service
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <FormComponent />
+        </Modal.Body>
+      </Modal>
+    </>
+  )
+}
 
 export const Footer: FC = () => {
   return (
@@ -15,25 +50,26 @@ export const Footer: FC = () => {
       <div className="footer-social">
         <a href="https://api.whatsapp.com/send?phone=+91&text=Hii">
           <img
-            src="\icons\whatsapp-icon.webp"
+            src="/images/whatsapp-icon.webp"
             className="footer-whatsapp"
             style={{ filter: 'invert(0)' }}
           />
         </a>
         <a href="tel:">
           <img
-            src="\icons\call-icon.webp"
+            src="/images/call-icon.webp"
             className="footer-call"
             style={{ filter: 'invert(0)' }}
           />
         </a>
-        <a>
+        {/* <a>
           <img
-            src="\icons\fillForm.png"
+            src="/images/fillForm.png"
             className="footer-fillForm"
-            style={{ filter: 'invert(0)' }}
+            style={{ filter: 'invert(0)'}}
           />
-        </a>
+        </a> */}
+        <FillForm />
       </div>
       <div className="container">
         <div className="d-flex justify-content-center flex-flow-wrap">
@@ -129,7 +165,7 @@ export const Footer: FC = () => {
                     <div className="footer-list">
                       <ul className="list-unstyled">
                         <li>
-                          <Link href="index.php">Home</Link>
+                          <Link href="/">Home</Link>
                         </li>
                         <li>
                           <Link href="/company/about">About Us</Link>

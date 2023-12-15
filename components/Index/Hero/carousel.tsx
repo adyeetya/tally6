@@ -48,7 +48,7 @@ function UncontrolledExample() {
                 className={styles['image']}
                 src="/images/Asset-3.png"
                 alt="car-img"
-                style={{ width: '393px', height: '236px' }}
+                style={{ width: '250px', height: '236px' }}
               />
             </div>
           </div>
@@ -98,7 +98,7 @@ function UncontrolledExample() {
                 className={styles['image']}
                 src="/images/Asset-4.png"
                 alt="car-img"
-                style={{ width: '393px', height: '236px' }}
+                style={{ width: '250px', height: '236px' }}
               />
             </div>
           </div>
@@ -148,7 +148,7 @@ function UncontrolledExample() {
                 className={styles['image']}
                 src="/images/Asset-5.png"
                 alt="car-img"
-                style={{ width: '393px', height: '236px' }}
+                style={{ width: '250px', height: '236px' }}
               />
             </div>
           </div>
@@ -198,7 +198,7 @@ function UncontrolledExample() {
                 className={styles['image']}
                 src="/images/Asset-6.png"
                 alt="car-img"
-                style={{ width: '393px', height: '236px' }}
+                style={{ width: '250px', height: '236px' }}
               />
             </div>
           </div>
@@ -248,7 +248,7 @@ function UncontrolledExample() {
                 className={styles['image']}
                 src="/images/Asset-7.png"
                 alt="car-img"
-                style={{ width: '393px', height: '236px' }}
+                style={{ width: '250px', height: '236px' }}
               />
             </div>
           </div>

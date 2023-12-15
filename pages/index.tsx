@@ -11,7 +11,7 @@ import { Form } from '@components/Index/Form'
 import FeatureProjects from '@components/Index/FeatureProjects'
 const HomePage: NextPage = () => {
   return (
-    <Layout title="Anasayfa">
+    <Layout title="Tally Solutions | Tally Customisation Solutions">
       <Hero />
 
       {/* <About /> */}

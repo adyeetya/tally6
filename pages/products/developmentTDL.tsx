@@ -29,7 +29,7 @@ const developmentTDL = () => {
               <nav aria-label="breadcrumb" className="page-breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link="index.php">Home</a>
+                    <Link="/">Home</a>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     About Tally Erp9 Softwarex

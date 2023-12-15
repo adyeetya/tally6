@@ -38,7 +38,7 @@ const trading = () => {
           <nav aria-label="breadcrumb" className="page-breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <Link href="index.php">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Glow IPS Tally ERP.9 Rental
@@ -261,10 +261,7 @@ const trading = () => {
                           </a>
                         </div>
                         <div className="col-md-4">
-                          <a
-                            href="/assets/GLOWIPS%20TII.pdf"
-                            target="_blank"
-                          >
+                          <a href="/assets/GLOWIPS%20TII.pdf" target="_blank">
                             <img
                               src="/images/trading_invoice_3.jpg"
                               alt=""

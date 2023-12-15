@@ -30,7 +30,7 @@ const gold = () => {
               <nav aria-label="breadcrumb" className="page-breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link href="index.php">Home</Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     About Tally Erp9 Softwarex
@@ -119,10 +119,7 @@ const gold = () => {
                   </div>
                   <div className="card-header1">
                     <h6 className="mb-0">
-                      <Link
-                        href="/services/supportcover"
-                        className="collapsed"
-                      >
+                      <Link href="/services/supportcover" className="collapsed">
                         {' '}
                         Annual Support Cover
                       </Link>
