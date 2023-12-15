@@ -233,7 +233,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/mmtc.jpeg"
+                        src="/images/logos/mmtc.jpeg"
                         width="100%"
                         alt="MMTC Limited"
                       />
@@ -245,7 +245,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/altech.jpg"
+                        src="/images/logos/altech.jpg"
                         width="100%"
                         alt="Altech Aluminium"
                       />
@@ -257,7 +257,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/pl.jpeg"
+                        src="/images/logos/pl.jpeg"
                         width="100%"
                         alt="Jindal Group (CP)"
                       />
@@ -269,7 +269,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/maharishiAyurveda.jpeg"
+                        src="/images/logos/maharishiAyurveda.jpeg"
                         width="100%"
                         alt="Maharishi Ayurvedic India"
                       />
@@ -281,7 +281,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/contec global.jpeg"
+                        src="/images/logos/contec global.jpeg"
                         width="100%"
                         alt="Jindal Group (CP)"
                       />
@@ -293,7 +293,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/panasonic.jpeg"
+                        src="/images/logos/panasonic.jpeg"
                         width="100%"
                         alt="Panasonic India Pvt Ltd"
                       />
@@ -305,7 +305,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/classteacher.jpeg"
+                        src="/images/logos/classteacher.jpeg"
                         width="100%"
                         alt="Class Teacher Learning Systems (Mindshapers Tech.)"
                       />
@@ -319,7 +319,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/PCI.jpeg"
+                        src="/images/logos/PCI.jpeg"
                         width="100%"
                         alt="Press Council of India"
                       />
@@ -331,7 +331,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/continental.jpeg"
+                        src="/images/logos/continental.jpeg"
                         width="100%"
                         alt="Continental India Pvt Ltd"
                       />
@@ -343,7 +343,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/easybill.jpeg"
+                        src="/images/logos/easybill.jpeg"
                         width="100%"
                         alt="Easy Bill"
                       />
@@ -355,7 +355,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/genex logistics.jpeg"
+                        src="/images/logos/genex logistics.jpeg"
                         width="100%"
                         alt="Genex Logistics"
                       />
@@ -367,7 +367,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/montain adventures.jpeg"
+                        src="/images/logos/montain adventures.jpeg"
                         width="100%"
                         alt="Mountain Adventures India Pvt Ltd"
                       />
@@ -379,7 +379,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/oscar.jpeg"
+                        src="/images/logos/oscar.jpeg"
                         width="100%"
                         alt="Oscar Group – Noida"
                       />
@@ -391,7 +391,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/imphynyt.jpeg"
+                        src="/images/logos/imphynyt.jpeg"
                         width="100%"
                         alt="Inphynyt Solutions"
                       />
@@ -403,7 +403,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/g4s.jpeg"
+                        src="/images/logos/g4s.jpeg"
                         width="100%"
                         alt="G-4 Mobile Group"
                       />
@@ -415,7 +415,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/bioworld.jpeg"
+                        src="/images/logos/bioworld.jpeg"
                         width="100%"
                         alt="Bioworld Merchandizing"
                       />
@@ -427,7 +427,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/sunderdiamond.jpegg"
+                        src="/images/logos/sunderdiamond.jpegg"
                         width="100%"
                         alt="Sunder Jewellers"
                       />
@@ -439,7 +439,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/minda.jpeg"
+                        src="/images/logos/minda.jpeg"
                         width="100%"
                         alt="Minda Group"
                       />
@@ -451,7 +451,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/safeguard.jpeg"
+                        src="/images/logos/safeguard.jpeg"
                         width="100%"
                         alt="Safegate Airport Systems India Pvt Ltd"
                       />
@@ -463,7 +463,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/shalcot.jpeg"
+                        src="/images/logos/shalcot.jpeg"
                         width="100%"
                         alt="Shalcot Mechanique Pvt Ltd"
                       />
@@ -475,7 +475,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/siemens.jpeg"
+                        src="/images/logos/siemens.jpeg"
                         width="100%"
                         alt="Siemens"
                       />
@@ -487,7 +487,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/dalmia.jpeg"
+                        src="/images/logos/dalmia.jpeg"
                         width="100%"
                         alt="Dalmiya Continental"
                       />
@@ -499,7 +499,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/jindal.jpg"
+                        src="/images/logos/jindal.jpg"
                         width="100%"
                         alt="Jindal Group (CP)"
                       />
@@ -511,7 +511,7 @@ const clientage = () => {
                   <div className="col-md-3 col-6">
                     <div className="client-border-2">
                       <img
-                        src="https://www.tallysolution.net/assets/images/logos/abhyas Institute.jpeg"
+                        src="/images/logos/abhyas Institute.jpeg"
                         width="100%"
                         alt="Abhyas Institute"
                       />

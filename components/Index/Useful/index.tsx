@@ -236,7 +236,7 @@ export const Useful: FC = () => {
                 <div className="featured-icon">
                   {' '}
                   <img
-                    src="https://www.tallysolution.net/assets/images/icons/cooperation1.png"
+                    src="/images/icons/cooperation1.png"
                     alt=""
                     width="50%"
                   />
@@ -252,11 +252,7 @@ export const Useful: FC = () => {
               <div className="featured-item style-3 product-item">
                 <div className="featured-icon">
                   {' '}
-                  <img
-                    src="https://www.tallysolution.net/assets/images/icons/strategy.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/icons/strategy.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <Link href="tallyerp-9-featured-projects.php">
@@ -286,11 +282,7 @@ export const Useful: FC = () => {
               <div className="featured-item style-3 product-item">
                 <div className="featured-icon">
                   {' '}
-                  <img
-                    src="https://www.tallysolution.net/assets/images/icons/about.png"
-                    alt=""
-                    width="50%"
-                  />
+                  <img src="/images/icons/about.png" alt="" width="50%" />
                 </div>
                 <div className="featured-title">
                   <Link href="/solutions/verticalsolutions">
@@ -318,7 +310,7 @@ export const Useful: FC = () => {
               <div className="slide-track ">
                 <div className="slide ">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/PCI.jpeg"
+                    src="/images/logos/PCI.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -326,7 +318,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/abhyas Institute.jpeg"
+                    src="/images/logos/abhyas Institute.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -334,7 +326,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/bioworld.jpeg"
+                    src="/images/logos/bioworld.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -342,7 +334,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/classteacher.jpeg"
+                    src="/images/logos/classteacher.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -350,7 +342,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/contec%20global.jpeg"
+                    src="/images/logos/contec%20global.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -358,7 +350,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/continental.jpeg"
+                    src="/images/logos/continental.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -366,7 +358,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/shalcot.jpeg"
+                    src="/images/logos/shalcot.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -374,7 +366,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/siemens.jpeg"
+                    src="/images/logos/siemens.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -382,7 +374,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/sunder%20diamond.jpeg"
+                    src="/images/logos/sunder%20diamond.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -390,7 +382,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/panasonic.jpeg"
+                    src="/images/logos/panasonic.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -406,7 +398,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/pl.jpeg"
+                    src="/images/logos/pl.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -414,7 +406,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/safeguard.jpeg"
+                    src="/images/logos/safeguard.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -422,7 +414,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/easybill.jpeg"
+                    src="/images/logos/easybill.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -430,7 +422,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/dalmia.jpeg"
+                    src="/images/logos/dalmia.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -438,7 +430,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/dalmia.jpeg"
+                    src="/images/logos/dalmia.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -446,7 +438,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/abhyas%20Institute.jpeg"
+                    src="/images/logos/abhyas%20Institute.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -454,7 +446,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/g4s.jpeg"
+                    src="/images/logos/g4s.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -462,7 +454,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/genex%20logistics.jpeg"
+                    src="/images/logos/genex%20logistics.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -470,7 +462,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/imphynyt.jpeg"
+                    src="/images/logos/imphynyt.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -478,7 +470,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/genex%20logistics.jpeg"
+                    src="/images/logos/genex%20logistics.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -486,7 +478,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/maharishiAyurveda.jpeg"
+                    src="/images/logos/maharishiAyurveda.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -494,7 +486,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/minda.jpeg"
+                    src="/images/logos/minda.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -503,7 +495,7 @@ export const Useful: FC = () => {
 
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/minda.jpeg"
+                    src="/images/logos/minda.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -511,7 +503,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/mmtc.jpeg"
+                    src="/images/logos/mmtc.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -519,7 +511,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/montain%20adventures.jpeg"
+                    src="/images/logos/montain%20adventures.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -527,7 +519,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/oscar.jpeg"
+                    src="/images/logos/oscar.jpeg"
                     height={100}
                     width={250}
                     alt=""
@@ -535,7 +527,7 @@ export const Useful: FC = () => {
                 </div>
                 <div className="slide">
                   <img
-                    src="https://www.tallysolution.net/assets/images/logos/pl.jpeg"
+                    src="/images/logos/pl.jpeg"
                     height={100}
                     width={250}
                     alt=""

@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/404": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -26,56 +31,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/company/clientage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/company/clientage.js"
-    ],
-    "/download/instantsupport": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/download/instantsupport.js"
-    ],
-    "/download/tallydownloads": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/download/tallydownloads.js"
-    ],
-    "/products/functionFeatures/financialManagementAndControl": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/products/functionFeatures/financialManagementAndControl.js"
-    ],
-    "/products/shoper9POS": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/products/shoper9POS.js"
-    ],
-    "/services/advisoryservices": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/advisoryservices.js"
-    ],
-    "/services/customization/dedicated": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/customization/dedicated.js"
-    ],
-    "/services/supportcover": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/services/supportcover.js"
-    ],
-    "/solutions/addonmodules": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/solutions/addonmodules.js"
-    ],
-    "/solutions/readyinvoicecust/preprinted": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/solutions/readyinvoicecust/preprinted.js"
     ]
   },
   "ampFirstPages": []

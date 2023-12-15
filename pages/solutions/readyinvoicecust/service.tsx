@@ -242,7 +242,7 @@ const service = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS-SERVICE-IN_big_1.jpg"
+                              src="/images/GLOWIPS-SERVICE-IN_big_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -254,7 +254,7 @@ const service = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS-SERVICE-IN_big_2.jpg"
+                              src="/images/GLOWIPS-SERVICE-IN_big_2.jpg"
                               alt=""
                               width="100%"
                             />

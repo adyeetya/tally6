@@ -239,11 +239,11 @@ const garment = () => {
                       <div className="row justify-content-center align-items-center">
                         <div className="col-md-4">
                           <Link
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20GI-1.pdf"
+                            href="/assets/GLOWIPS%20GI-1.pdf"
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/garment_invoice_big_1.jpg"
+                              src="/images/garment_invoice_big_1.jpg"
                               alt=""
                               width="100%"
                             />

@@ -242,7 +242,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_1.jpg"
+                              src="/images/normal_invoice_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -254,7 +254,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_2.jpg"
+                              src="/images/normal_invoice_2.jpg"
                               alt=""
                               width="100%"
                             />
@@ -266,7 +266,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_3.jpg"
+                              src="/images/normal_invoice_3.jpg"
                               alt=""
                               width="100%"
                             />
@@ -278,7 +278,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_4.jpg"
+                              src="/images/normal_invoice_4.jpg"
                               alt=""
                               width="100%"
                             />
@@ -290,7 +290,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_5.jpg"
+                              src="/images/normal_invoice_5.jpg"
                               alt=""
                               width="100%"
                             />
@@ -302,7 +302,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_6.jpg"
+                              src="/images/normal_invoice_6.jpg"
                               alt=""
                               width="100%"
                             />
@@ -314,7 +314,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_7.jpg"
+                              src="/images/normal_invoice_7.jpg"
                               alt=""
                               width="100%"
                             />
@@ -326,7 +326,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_8.jpg"
+                              src="/images/normal_invoice_8.jpg"
                               alt=""
                               width="100%"
                             />
@@ -338,7 +338,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_9.jpg"
+                              src="/images/normal_invoice_9.jpg"
                               alt=""
                               width="100%"
                             />
@@ -350,7 +350,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_10.jpg"
+                              src="/images/normal_invoice_10.jpg"
                               alt=""
                               width="100%"
                             />
@@ -362,7 +362,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_11.jpg"
+                              src="/images/normal_invoice_11.jpg"
                               alt=""
                               width="100%"
                             />
@@ -374,7 +374,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_12.jpg"
+                              src="/images/normal_invoice_12.jpg"
                               alt=""
                               width="100%"
                             />
@@ -386,7 +386,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_13.jpg"
+                              src="/images/normal_invoice_13.jpg"
                               alt=""
                               width="100%"
                             />
@@ -398,7 +398,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_14.jpg"
+                              src="/images/normal_invoice_14.jpg"
                               alt=""
                               width="100%"
                             />
@@ -410,7 +410,7 @@ const simple = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/normal_invoice_15.jpg"
+                              src="/images/normal_invoice_15.jpg"
                               alt=""
                               width="100%"
                             />

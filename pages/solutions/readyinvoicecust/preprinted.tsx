@@ -244,7 +244,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_1.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -256,7 +256,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_2.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_2.jpg"
                               alt=""
                               width="100%"
                             />
@@ -268,7 +268,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_3.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_3.jpg"
                               alt=""
                               width="100%"
                             />
@@ -280,7 +280,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_4.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_4.jpg"
                               alt=""
                               width="100%"
                             />
@@ -292,7 +292,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_5.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_5.jpg"
                               alt=""
                               width="100%"
                             />
@@ -304,7 +304,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_6.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_6.jpg"
                               alt=""
                               width="100%"
                             />
@@ -316,7 +316,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_7.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_7.jpg"
                               alt=""
                               width="100%"
                             />
@@ -328,7 +328,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_8.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_8.jpg"
                               alt=""
                               width="100%"
                             />
@@ -340,7 +340,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_9.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_9.jpg"
                               alt=""
                               width="100%"
                             />
@@ -352,7 +352,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_10.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_10.jpg"
                               alt=""
                               width="100%"
                             />
@@ -364,7 +364,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_11.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_11.jpg"
                               alt=""
                               width="100%"
                             />
@@ -376,7 +376,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_12.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_12.jpg"
                               alt=""
                               width="100%"
                             />
@@ -388,7 +388,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_13.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_13.jpg"
                               alt=""
                               width="100%"
                             />
@@ -400,7 +400,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_14.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_14.jpg"
                               alt=""
                               width="100%"
                             />
@@ -412,7 +412,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_15.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_15.jpg"
                               alt=""
                               width="100%"
                             />
@@ -424,7 +424,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_16.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_16.jpg"
                               alt=""
                               width="100%"
                             />
@@ -436,7 +436,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_17.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_17.jpg"
                               alt=""
                               width="100%"
                             />
@@ -448,7 +448,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_18.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_18.jpg"
                               alt=""
                               width="100%"
                             />
@@ -460,7 +460,7 @@ const preprinted = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_19.jpg"
+                              src="/images/GLOWIPS_PRE-PRINTED_CUST_INVOICES_19.jpg"
                               alt=""
                               width="100%"
                             />

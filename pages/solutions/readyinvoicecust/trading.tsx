@@ -238,11 +238,11 @@ const trading = () => {
                       <div className="row justify-content-center align-items-center">
                         <div className="col-md-4">
                           <a
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20TII%20(1).pdf"
+                            href="/assets/GLOWIPS%20TII%20(1).pdf"
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/trading_invoice_1.jpg"
+                              src="/images/trading_invoice_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -250,11 +250,11 @@ const trading = () => {
                         </div>
                         <div className="col-md-4">
                           <a
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20TII%20(2).pdf"
+                            href="/assets/GLOWIPS%20TII%20(2).pdf"
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/trading_invoice_2.jpg"
+                              src="/images/trading_invoice_2.jpg"
                               alt=""
                               width="100%"
                             />
@@ -262,11 +262,11 @@ const trading = () => {
                         </div>
                         <div className="col-md-4">
                           <a
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20TII.pdf"
+                            href="/assets/GLOWIPS%20TII.pdf"
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/trading_invoice_3.jpg"
+                              src="/images/trading_invoice_3.jpg"
                               alt=""
                               width="100%"
                             />

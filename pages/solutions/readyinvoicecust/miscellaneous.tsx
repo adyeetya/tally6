@@ -242,7 +242,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_1.jpg"
+                              src="/images/MISC_big_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -254,7 +254,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_2.jpg"
+                              src="/images/MISC_big_2.jpg"
                               alt=""
                               width="100%"
                             />
@@ -266,7 +266,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_3.jpg"
+                              src="/images/MISC_big_3.jpg"
                               alt=""
                               width="100%"
                             />
@@ -278,7 +278,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_4.jpg"
+                              src="/images/MISC_big_4.jpg"
                               alt=""
                               width="100%"
                             />
@@ -290,7 +290,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_5.jpg"
+                              src="/images/MISC_big_5.jpg"
                               alt=""
                               width="100%"
                             />
@@ -302,7 +302,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_6.jpg"
+                              src="/images/MISC_big_6.jpg"
                               alt=""
                               width="100%"
                             />
@@ -314,7 +314,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_7.jpg"
+                              src="/images/MISC_big_7.jpg"
                               alt=""
                               width="100%"
                             />
@@ -326,7 +326,7 @@ const miscellaneous = () => {
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/MISC_big_8.jpg"
+                              src="/images/MISC_big_8.jpg"
                               alt=""
                               width="100%"
                             />

@@ -2,15 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/solutions/readyinvoicecust/preprinted": "pages/solutions/readyinvoicecust/preprinted.js",
-  "/download/tallydownloads": "pages/download/tallydownloads.js",
-  "/404": "pages/404.js",
-  "/services/advisoryservices": "pages/services/advisoryservices.js",
-  "/services/customization/dedicated": "pages/services/customization/dedicated.js",
-  "/services/supportcover": "pages/services/supportcover.js",
-  "/download/instantsupport": "pages/download/instantsupport.js",
-  "/solutions/addonmodules": "pages/solutions/addonmodules.js",
-  "/company/clientage": "pages/company/clientage.js",
-  "/products/shoper9POS": "pages/products/shoper9POS.js",
-  "/products/functionFeatures/financialManagementAndControl": "pages/products/functionFeatures/financialManagementAndControl.js"
+  "/": "pages/index.js",
+  "/404": "pages/404.js"
 }

@@ -238,11 +238,11 @@ const clearingforwarding = () => {
                       <div className="row justify-content-center align-items-center">
                         <div className="col-md-4">
                           <Link
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20C&F%20INVOICE%20(1).pdf"
+                            href="/assets/GLOWIPS%20C&F%20INVOICE%20(1).pdf"
                             target="_blank"
                           >
                             <img
-                              src="/images/big_images/GLOWIPS-C&F-INVOICE-_big_1.jpg"
+                              src="/images/GLOWIPS-C&F-INVOICE-_big_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -250,11 +250,11 @@ const clearingforwarding = () => {
                         </div>
                         <div className="col-md-4">
                           <Link
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20C&F%20INVOICE%20(2).pdf"
+                            href="/assets/GLOWIPS%20C&F%20INVOICE%20(2).pdf"
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS-C&F-INVOICE-_big_2.jpg"
+                              src="/images/GLOWIPS-C&F-INVOICE-_big_2.jpg"
                               alt=""
                               width="100%"
                             />
@@ -262,11 +262,11 @@ const clearingforwarding = () => {
                         </div>
                         <div className="col-md-4">
                           <Link
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20C&F%20INVOICE.pdf"
+                            href="/assets/GLOWIPS%20C&F%20INVOICE.pdf"
                             target="_blank"
                           >
                             <img
-                              src="https://www.tallysolution.net/assets/images/big_images/GLOWIPS-C&F-INVOICE-_big_3.jpg"
+                              src="/images/GLOWIPS-C&F-INVOICE-_big_3.jpg"
                               alt=""
                               width="100%"
                             />

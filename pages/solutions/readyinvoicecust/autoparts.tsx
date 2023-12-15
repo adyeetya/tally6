@@ -238,11 +238,11 @@ const autoparts = () => {
                       <div className="row justify-content-center align-items-center">
                         <div className="col-md-4">
                           <a
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20AUTOMOBILE%20(1).pdf"
+                            href="/assets/GLOWIPS%20AUTOMOBILE%20(1).pdf"
                             target="_blank"
                           >
                             <img
-                              src="/images/big_images/Auto_invoice_1.jpg"
+                              src="/images/Auto_invoice_1.jpg"
                               alt=""
                               width="100%"
                             />
@@ -250,11 +250,11 @@ const autoparts = () => {
                         </div>
                         <div className="col-md-4">
                           <a
-                            href="https://www.tallysolution.net/assets/pdf/GLOWIPS%20AUTOMOBILE.pdf"
+                            href="/assets/GLOWIPS%20AUTOMOBILE.pdf"
                             target="_blank"
                           >
                             <img
-                              src="/images/big_images/Auto_invoice_2.jpg"
+                              src="/images/Auto_invoice_2.jpg"
                               alt=""
                               width="100%"
                             />
